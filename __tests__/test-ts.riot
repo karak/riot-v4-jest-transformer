@@ -1,0 +1,18 @@
+<test-ts>
+  <span>Hello, TypeScript world!</span>
+  <script lang="ts">
+    import { withTypes, RiotComponent } from 'riot';
+   
+    export type TestProps = {};
+
+    export type TesetState = {
+      text: string
+    };
+
+    export type TestComponent = RiotComponent<TestProps, TesetState>;
+
+    export default withTypes<TestComponent>({
+
+    });
+  </script>
+</test-ts>
