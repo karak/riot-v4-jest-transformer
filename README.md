@@ -5,7 +5,7 @@
 Install via NPM with `babel-jest`, which this module depends.
 
 ```sh
-npm i -D babel-jest riot-v4-jest-transformer
+npm i -D babel-jest riot-v6-jest-transformer
 ```
 
 Edit jest.config.js or something like this.
@@ -48,6 +48,29 @@ Edit .babelrc.
         },
       },
     ],
+  ]
+}
+```
+
+Remember to set "@babel/preset-typescript" with `allowExtension` if you use TypeScript in your tags.
+
+```json:.babelrc
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current",
+        },
+      },
+    ],
+    [
+      "@babel/preset-typescript",
+      {
+        "allExtensions": true,
+      }
+    ]
   ]
 }
 ```
