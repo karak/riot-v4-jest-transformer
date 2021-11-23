@@ -1,7 +1,7 @@
 {
-  "name": "riot-v4-jest-transformer",
+  "name": "riot-v6-jest-transformer",
   "version": "0.0.1",
-  "description": "jest transformer for tags of riot v4",
+  "description": "jest transformer for tags of riot v6",
   "main": "lib/index.js",
   "main:next": "src/index.js",
   "repository": "https://github.com/karak/riot-v4-jest-transformer",
@@ -16,13 +16,13 @@
     "jest": "^24.8.0"
   },
   "peerDependencies": {
-    "@riotjs/compiler": "^4.0.0"
+    "@riotjs/compiler": "^6.0.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "babel-jest": "^24.8.0",
-    "riot": "^4.0.0"
+    "riot": "^6.0.4"
   }
 }
