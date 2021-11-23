@@ -1,4 +1,4 @@
-# Riot-v4-jest-transformer
+# Riot-v6-jest-transformer
 
 ## Usage
 
