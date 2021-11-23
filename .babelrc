@@ -4,9 +4,11 @@
       "@babel/preset-env",
       {
         "targets": {
-          "node": "current",
+          "node": "14",
         },
+        "modules": "commonjs",
       },
     ],
+    "@babel/preset-typescript",
   ]
 }
